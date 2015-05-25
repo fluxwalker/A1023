@@ -47,12 +47,12 @@ PRODUCT_COPY_FILES += \
 #	device/softwinner/polaris-p1/recovery.fstab:recovery.fstab 
 # camera
 PRODUCT_COPY_FILES += \
-#	device/softwinner/polaris-p1/configs/camera.cfg:system/etc/camera.cfg \
-#	device/softwinner/polaris-p1/configs/media_profiles.xml:system/etc/media_profiles.xml \
 	frameworks/native/data/etc/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
 	frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
 	frameworks/native/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
-	frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml
+	frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml\
+#	device/softwinner/polaris-p1/configs/camera.cfg:system/etc/camera.cfg \
+#	device/softwinner/polaris-p1/configs/media_profiles.xml:system/etc/media_profiles.xml \
 
 # 3G Data Card Packages
 #PRODUCT_PACKAGES += \
