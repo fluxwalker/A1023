@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 #	device/softwinner/polaris-p1/vold.fstab:system/etc/vold.fstab \
 #	device/softwinner/polaris-p1/recovery.fstab:recovery.fstab 
 # camera
-#PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
 #	device/softwinner/polaris-p1/configs/camera.cfg:system/etc/camera.cfg \
 #	device/softwinner/polaris-p1/configs/media_profiles.xml:system/etc/media_profiles.xml \
 	frameworks/native/data/etc/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
