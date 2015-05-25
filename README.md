@@ -13,3 +13,8 @@
 
 	Unless stated otherwise, this repository should be considered 
 	incomplete (unusuable in its current state).
+
+	So far, most of this repository is based on or taken from the sunxi A23
+	SDK.
+		tarball:	http://dl.linux-sunxi.org/SDK/A23-v1.0/
+		unpacked:	http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/
