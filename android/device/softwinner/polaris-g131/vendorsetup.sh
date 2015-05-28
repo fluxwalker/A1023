@@ -1,0 +1,2 @@
+add_lunch_combo cm_polaris_g131-eng
+add_lunch_combo cm_polaris_g131-userdebug

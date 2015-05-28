@@ -1,0 +1,110 @@
+# / DOESN'T WORK WITH extract-files.sh
+	#ueventd.goldfish.rc
+	#ueventd.rc
+	#ueventd.sun8i.rc
+	#default.prop
+	#fstab.sun8i
+	#init
+	#init.goldfish.rc
+	#init.none.rc
+	#init.rc
+	#init.recovery.sun8i.rc
+	#init.sun8i.rc
+	#init.sun8i.usb.rc
+	#init.trace.rc
+	#init.usb.rc
+	#nand.ko
+
+
+# /system/app
+	app/SoftWinnerService.apk
+
+# /system/backup
+	backup/SoftWinnerService.apk
+
+# /system/bin
+	bin/e2fsck
+	bin/fsck.exfat
+	bin/make_ext4fs
+	bin/mkfs.exfat
+	bin/mkntfs
+	bin/mount.exfat
+	bin/ntfs-3g
+	bin/ntfs-3g.probe
+	bin/usb_modeswitch
+	bin/rild
+	bin/sensors.sh
+	bin/updatesoftwinner
+
+# /system/etc
+	etc/audio_policy.conf
+	etc/ppp/ip-down
+	etc/ppp/ip-up
+	etc/3g_dongle.cfg
+	etc/camera_back.cfg
+	etc/camera_dou.cfg
+	etc/camera_front.cfg
+	etc/media_codecs.xml
+	etc/media_profiles.xml
+	etc/phone_volume.conf
+	etc/vold.fstab
+	etc/wfd_blacklist.conf
+	etc/permissions/android.softwinner.framework.xml
+	etc/permissions/tablet_core_hardware.xml
+
+# /system/framework
+	framework/android.softwinner.framework.jar
+
+# /system/lib/...
+	lib/egl/egl.cfg
+	lib/hw/gralloc.sun8i.so
+	lib/egl/libEGL_mali.so
+	lib/egl/libGLES_android.so
+	lib/egl/libGLESv1_CM_mali.so
+	lib/egl/libGLESv2_mali.so
+	lib/hw/lights.polaris.so
+	lib/hw/camera.polaris.so
+	lib/hw/sensors.polaris.so
+	lib/hw/hwcomposer.polaris.so
+	lib/libext2fs.so
+	lib/libext2_blkid.so
+	lib/libext2_uuid.so
+	lib/libext2_profile.so
+	lib/libext2_com_err.so
+	lib/libext2_e2p.so
+	lib/libion.so
+	lib/libion_alloc.so
+	lib/libMali.so
+	lib/libsoftwinner-ril.so
+	lib/libsoftwinner_servers.so
+	lib/libupdatesoftwinner.so
+
+# /system/usr
+	usr/keylayout/AVRCP.kl
+	usr/keylayout/Generic.kl
+	usr/keylayout/qwerty.kl
+	usr/keylayout/Vendor_045e_Product_028e.kl
+	usr/keylayout/Vendor_046d_Product_c216.kl
+	usr/keylayout/Vendor_046d_Product_c294.kl
+	usr/keylayout/Vendor_046d_Product_c299.kl
+	usr/keylayout/Vendor_046d_Product_c532.kl
+	usr/keylayout/Vendor_054c_Product_0268.kl
+	usr/keylayout/Vendor_05ac_Product_0239.kl
+	usr/keylayout/Vendor_22b8_Product_093d.kl
+	usr/icu/icudt48l.dat
+
+# /system/vendor/modules
+	vendor/modules/disp.ko
+	vendor/modules/ft5x_ts.ko
+	vendor/modules/gt9xxf_ts.ko
+	vendor/modules/gt9xx_ts.ko
+	vendor/modules/gt82x.ko
+	vendor/modules/gt818_ts.ko
+	vendor/modules/lcd.ko
+	vendor/modules/nand.ko
+	vendor/modules/sunxi-keyboard.ko
+	vendor/modules/sw-device.ko
+
+# /system/xbin
+	xbin/call-pppd
+	xbin/usb_modeswitch.sh	
